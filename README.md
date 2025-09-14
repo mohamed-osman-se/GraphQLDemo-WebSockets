@@ -37,6 +37,7 @@ This is a simple learning project built with **ASP.NET Core** that demonstrates 
   dotnet run
 
 ```
+#### Move to http://localhost:5198/graphql/
 ---
 
 ## 🔍 Example Operations
