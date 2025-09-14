@@ -30,11 +30,11 @@ This is a simple learning project built with **ASP.NET Core** that demonstrates 
 
 ### Run the Project
 
-    ```bash
+ ```bash
     git clone [https://github.com/mohamed-osman-se/GraphQLDemo-WebSockets.git](https://github.com/mohamed-osman-se/GraphQLDemo-WebSockets.git)
     cd GraphQLDemo-WebSockets
     dotnet run
-    ```
+```
 ---
 
 ## 🔍 Example Operations
@@ -75,16 +75,6 @@ subscription {
   }
 }
 ```
-
----
-
-##  What I Learned
-
--   Setting up GraphQL in ASP.NET Core.
-
--   Using WebSockets to support GraphQL subscriptions.
-
--   Understanding the trade-offs between Polling and Pub/Sub patterns.
 
 ---
 
