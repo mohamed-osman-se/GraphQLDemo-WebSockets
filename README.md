@@ -46,11 +46,12 @@ This is a simple learning project built with **ASP.NET Core** that demonstrates 
 
 ```graphql
 query {
-  books {
+  authors {
     id
-    title
-    author {
-      name
+    name
+    books {
+      id
+      title
     }
   }
 }
