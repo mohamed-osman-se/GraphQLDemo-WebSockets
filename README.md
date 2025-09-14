@@ -31,9 +31,11 @@ This is a simple learning project built with **ASP.NET Core** that demonstrates 
 ### Run the Project
 
  ```bash
-    git clone [https://github.com/mohamed-osman-se/GraphQLDemo-WebSockets.git](https://github.com/mohamed-osman-se/GraphQLDemo-WebSockets.git)
-    cd GraphQLDemo-WebSockets
-    dotnet run
+
+   git clone https://github.com/mohamed-osman-se/GraphQLDemo-WebSockets.git
+  cd GraphQLDemo-WebSockets
+  dotnet run
+
 ```
 ---
 
