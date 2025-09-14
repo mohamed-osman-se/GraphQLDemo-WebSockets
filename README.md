@@ -61,11 +61,12 @@ query {
 
 ```graphql
 mutation {
-  addBook(book: { title: "New Book", authorId: 1 }) {
+  addBook(input:{ title: "New Book", authorId: 1 }) {
     id
     title
   }
 }
+
 
 ```
 
