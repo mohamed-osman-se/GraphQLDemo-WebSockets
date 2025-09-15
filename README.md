@@ -1,20 +1,25 @@
+
 # 🧪 GraphQL Demo with WebSockets
 
-This is a simple learning project built with **ASP.NET Core** that demonstrates how to use **GraphQL** together with **WebSockets**. The main focus is on exploring **Queries, Mutations, and Subscriptions**, and understanding the difference between **Polling** and the **Pub/Sub pattern**.
+This is a learning project built with **ASP.NET Core 9** that demonstrates how to use **GraphQL** together with **WebSockets**.  
+The main focus is on exploring **Queries, Mutations, and Subscriptions**, understanding the difference between **Polling** and the **Pub/Sub pattern**, and applying **query optimization practices**.
 
 ---
 
 ## ✨ Features
 
 -   Define and execute **GraphQL Queries** and **Mutations**.
--   Implement **GraphQL Subscriptions** using WebSockets (Pub/Sub).
--   Compare **Polling** vs **Pub/Sub** approaches.
+-   Implement **GraphQL Subscriptions** using WebSockets (**Pub/Sub pattern**).
+-   Compare **Polling** vs **Pub/Sub** real-time data delivery.
+-   Use **Projection** to fetch only the required fields.
+-   Optimize queries to avoid **over-fetching** and unnecessary payloads.
+-   Handle the **N+1 problem** by structuring queries efficiently.
 
 ---
 
 ## 📂 Project Structure
 
--   `Query.cs` – Defines available GraphQL queries.
+-   `Query.cs` – Defines available GraphQL queries with projection applied.
 -   `Mutation.cs` – Defines mutations (e.g., add new records).
 -   `Subscription.cs` – Defines GraphQL subscriptions using WebSockets.
 -   `SeedData.cs` – Seeds initial data for testing.
